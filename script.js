@@ -210,7 +210,7 @@ function replayQuiz(){
     highscoreContainer.style.display = "none";
     gameoverDiv.style.display = "none";
     startQuizDiv.style.display = "flex";
-    timeLeft = 76;
+    timeLeft = 80;
     score = 0;
     currentQuestionIndex = 0;
 }
@@ -235,6 +235,7 @@ function checkAnswer(answer){
         showScore();
     }
 }
+
 
 // this button starts the actual quiz
 
